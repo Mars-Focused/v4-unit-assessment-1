@@ -1,0 +1,29 @@
+.salmon-header-box {
+  border: 1px solid black;
+  height: 200px;
+  background-color: salmon;
+}
+
+.text1 {
+  display: inline-block;
+  border: 1px solid black;
+  height: 20px;
+}
+
+.text2 {
+  display: inline-block;
+  border: 1px solid black;
+  height: 20px;
+}
+
+.text3 {
+  display: inline-block;
+  border: 1px solid black;
+  height: 20px;
+}
+
+.text4 {
+  display: inline-block;
+  border: 1px solid black;
+  height: 20px;
+}
