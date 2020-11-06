@@ -6,11 +6,20 @@
 
 .headline {
   display: inline-block;
-  margin: 20px;
+  margin: 60px;
 }
 
 .link {
   display: inline-block;
   margin: 20px;
   font-size: 150%;
+  font-weight: normal;
+}
+
+.dotted-box {
+  outline: dotted black;
+}
+
+.paragraph {
+  font-size: 140%;
 }
