@@ -1,29 +1,16 @@
 .salmon-header-box {
   border: 1px solid black;
-  height: 200px;
+  height: 20vh;
   background-color: salmon;
 }
 
-.text1 {
+.headline {
   display: inline-block;
-  border: 1px solid black;
-  height: 20px;
+  margin: 20px;
 }
 
-.text2 {
+.link {
   display: inline-block;
-  border: 1px solid black;
-  height: 20px;
-}
-
-.text3 {
-  display: inline-block;
-  border: 1px solid black;
-  height: 20px;
-}
-
-.text4 {
-  display: inline-block;
-  border: 1px solid black;
-  height: 20px;
+  margin: 20px;
+  font-size: 150%;
 }
