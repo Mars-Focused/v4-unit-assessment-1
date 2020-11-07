@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+let gitDefinition = 'git is a version control system, that means it monitors changes to computer programs'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,7 @@
 */
 
 //CODE HERE
+let gitHubDefinitionm = 'github allows others users to access the most up to date version of your code'
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -32,7 +34,10 @@
     Create an object called 'init' with 'description' and 'code' properties 
     following the guidelines above to describe the init command.
 */
-
+init = {
+    description: 'this piece of code is used to allow git with a certain project',
+    code: 'git init'
+}
 //CODE HERE
 
 //////////////////PROBLEM 4////////////////////
@@ -42,6 +47,10 @@
 */
 
 //CODE HERE
+    clone = {
+        description: 'clone is used to create a clone of someone code on your own computer',
+        code: 'git clone COPIEDHTML'
+    }
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -50,6 +59,10 @@
 */
 
 //CODE HERE
+status = {
+    description: 'status is used to check the status of your code coppies within git ex: added, to be commited, and tree clean',
+    code: 'git status'
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -58,6 +71,10 @@
 */
 
 //CODE HERE
+add = {
+    description: 'it adds the most recent changes to the staging area, kind of like adding changes to a prototype',
+    code: 'git add .'
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -66,6 +83,10 @@
 */
 
 //CODE HERE
+commit = {
+    description: 'git commit saves all those changes locally on your device, kind of like storing a prototype, along other prototype desighns, before it goes to your boss for review',
+    code: 'git commit -m DESCRIPTION' 
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -74,6 +95,12 @@
 */
 
 //CODE HERE
+addRemote = {
+    description: 'this command lets you create connections with other repositories',
+    code: 'git remote add NAME URL'
+}
+// I had to look this one up.
+
 
 //////////////////PROBLEM 9////////////////////
 /*
