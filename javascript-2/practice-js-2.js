@@ -109,3 +109,8 @@ addRemote = {
 */
 
 //CODE HERE
+push = {
+    description: 'Used to upload local repository content to a remote repository',
+    code: "git push"
+}
+
