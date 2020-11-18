@@ -2,7 +2,7 @@
 /* Create an array called 'groceries' that contains three grocery items of your choice as strings. */
 
 //CODE HERE
-groceries = [strawberries, whipCream, chocolateSurup]
+groceries = ['strawberries', 'whipCream', 'chocolateSauce']
 
 //////////////////STEP 2////////////////////
 /* Create a variable called 'yourName' that is assigned the value of your name as a string. */
@@ -19,8 +19,8 @@ let yourName = 'Mars'
 */
 
 //CODE HERE
-function setGroceryListTile(x){
-    return x + 'Grocery List'
+function setGroceryListTitle(x){
+    return `${x}'s Grocery List`
 } 
 
 //////////////////STEP 4////////////////////
@@ -32,6 +32,9 @@ function setGroceryListTile(x){
 */
 
 //CODE HERE
+function addItem(item) {
+    groceries.push
+}
 
 //////////////////STEP 5////////////////////
 /*

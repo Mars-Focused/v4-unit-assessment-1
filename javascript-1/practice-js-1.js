@@ -287,19 +287,18 @@ function giveMeDoubles(arr, callback){
 //   this.year = year
 // }
 
-// function carFactory(make, model, year) {
-//   let car = {
-//     make: make,
-//     model: model,
-//     year: year,
-//     isNew: null
-//   }
+function carFactory(make, model, year) {
+  let car = {
+    make: make,
+    model: model,
+    year: year
+  }
     
-//   if (year > 2018) {
-//     car.isNew = true
-//   } else {
-//     car.isNew = false
-//   }
+  if (car.year > 2018) {
+    car.isNew = true
+  } else {
+    car.isNew = false
+  }
 
-//   return car
-// }
+  return car
+}

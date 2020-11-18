@@ -19,7 +19,7 @@ let gitDefinition = 'git is a version control system, that means it monitors cha
 */
 
 //CODE HERE
-let gitHubDefinitionm = 'github allows others users to access the most up to date version of your code'
+let gitHubDefinition = 'github allows others users to access the most up to date version of your code'
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -59,8 +59,8 @@ init = {
 */
 
 //CODE HERE
-status = {
-    description: 'status is used to check the status of your code coppies within git ex: added, to be commited, and tree clean',
+let status = {
+    description: 'status is used to check the status of your code copies within git ex: added, to be committed, and tree clean',
     code: 'git status'
 }
 
@@ -95,10 +95,12 @@ commit = {
 */
 
 //CODE HERE
-addRemote = {
+let addRemote = {
     description: 'this command lets you create connections with other repositories',
-    code: 'git remote add NAME URL'
+    code: 'git remote add'
 }
+
+
 // I had to look this one up.
 
 
