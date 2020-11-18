@@ -280,16 +280,26 @@ function giveMeDoubles(arr, callback){
 */
 
 //CODE HERE
-function carFactory(make, model, year){
-  car = {}
-  car.push(make)
-  car.push(model)
-  car.push(year)
-  if(year > 2018) {
-    let isNew = true
-    car.push(isNew)
-  } else {
-    let isNew = false
-    car.push(isNew)}
-  return car
-}
+
+// function car(make, model, year){
+//   this.make = make
+//   this.model = model
+//   this.year = year
+// }
+
+// function carFactory(make, model, year) {
+//   let car = {
+//     make: make,
+//     model: model,
+//     year: year,
+//     isNew: null
+//   }
+    
+//   if (year > 2018) {
+//     car.isNew = true
+//   } else {
+//     car.isNew = false
+//   }
+
+//   return car
+// }
